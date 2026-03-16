@@ -1,0 +1,109 @@
+{
+  "character": {
+    "name": "Cinimod Nottus",
+    "race": "Human",
+    "class": "Paladin",
+    "level": 1,
+    "xp": {
+      "current": 141,
+      "next_level": 300
+    },
+    "background": "Government Investigator / Lawkeeper",
+    "alignment": "Lawful Good"
+  },
+
+  "ability_scores": {
+    "STR": 16,
+    "DEX": 10,
+    "CON": 14,
+    "INT": 13,
+    "WIS": 12,
+    "CHA": 15
+  },
+
+  "combat_stats": {
+    "hp": {
+      "current": 12,
+      "max": 12
+    },
+    "ac": 18,
+    "initiative": 0,
+    "speed_ft": 30,
+    "hit_dice": "1d10"
+  },
+
+  "weapons": [
+    {
+      "name": "Steam-Assisted Longsword",
+      "attack_bonus": 5,
+      "damage": "1d8 + 3 Slashing"
+    },
+    {
+      "name": "Investigator’s Dagger",
+      "attack_bonus": 5,
+      "damage": "1d4 + 3 Piercing"
+    }
+  ],
+
+  "equipment": [
+    "Inspector’s Kite Shield",
+    "Chainmail",
+    "Officer’s Coat (Government Issue)",
+    "Holy Symbol of the State Order"
+  ],
+
+  "skills": [
+    "Persuasion",
+    "Insight",
+    "Investigation",
+    "Religion",
+    "Athletics"
+  ],
+
+  "investigator_gear": [
+    "Evidence journal",
+    "Ink and quill",
+    "Seal of authority",
+    "Magnifying lens",
+    "Field rations",
+    "Waterskin",
+    "Bedroll",
+    "50 ft rope",
+    "Belt pouch",
+    "10 gold pieces",
+    "2 sky coins",
+    "Corruption Crystal Shard"
+  ],
+
+  "documents": [
+    {
+      "name": "Clockwork College Document",
+      "description": "Recovered from the corrupted captain aboard the drifting vessel. Appears to reference experimental crystal amplification technology.",
+      "status": "Evidence"
+    }
+  ],
+
+  "appearance": {
+    "head": "Bald",
+    "eyes": "Blue",
+    "clothing": "Officer coat over heavy chainmail",
+    "distinguishing_feature": "Facial scar from the raider attack that killed his parents"
+  },
+
+  "backstory": "Cinimod Nottus is an academic employed by the governing authority as an official investigator. As a child his village was attacked by raiders, killing his parents and taking his younger sister. The tragedy drove him to dedicate his life to enforcing law and order. Now trained as a paladin and investigator, he travels where he is sent to examine strange events and restore stability to troubled lands.",
+
+  "session0_notes": {
+    "location": "Derelict airship in the South Essex skies",
+    "events": [
+      "Encountered corrupted crew members",
+      "Investigated captain's cabin",
+      "Discovered crystal amplification device",
+      "Negotiated with Yorudan regarding the crystal",
+      "Destroyed corrupted crystal source"
+    ],
+    "party_members": [
+      "Xanu",
+      "Yorudan"
+    ]
+  }
+}

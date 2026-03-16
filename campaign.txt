@@ -1,0 +1,133 @@
+{
+  "campaign_name": "South Essex Skies",
+  "session": 2,
+  "region": "South Essex Floating Isles",
+
+  "party": {
+    "members": [
+      "Xanu Hellstride",
+      "Yorudan",
+      "Cinimod Nottus"
+    ],
+    "known_allies": [
+      "Axis Cogtooth"
+    ],
+    "party_level": 3,
+    "party_xp": 1036
+  },
+
+  "current_location": "Southend Skyport",
+
+  "major_events": [
+    "Corrupted deckhand defeated aboard the Airship Silver Marrow",
+    "Captain Reddick killed after crystal corruption incident",
+    "Clockwork College experimental corruption amplifier discovered",
+    "Southend Stabilizer Tower sabotage prevented",
+    "Shattergear Syndicate leader defeated",
+    "Dock 7 ambush successful",
+    "The Brass Fox captured alive",
+    "Aetheric Resonance Core secured",
+
+    "Axis Cogtooth destroyed a corrupted Clockwork College recovery construct on Canvey Island",
+    "Illegal Clockwork College shipment discovered at Warehouse 17",
+    "Aetheric Core shipment sabotaged causing warehouse explosion",
+    "Project Black Meridian documents stolen by Axis Cogtooth"
+  ],
+
+  "active_plot_threads": [
+    "Clockwork College corruption experiments",
+    "Professor Alistair Vance involvement",
+    "Blackwater Wreck Site investigation",
+    "Meridian Broker conspiracy",
+    "Construction of the Aether Engine",
+    "Project Black Meridian research program",
+    "Illegal construct development on Canvey Island"
+  ],
+
+  "important_locations": [
+    {
+      "name": "Southend Skyport",
+      "type": "Major Trade Hub"
+    },
+    {
+      "name": "Chelmsford Clockwork College",
+      "type": "Engineering Academy"
+    },
+    {
+      "name": "Blackwater Wreck Site",
+      "type": "Ancient Ruins"
+    },
+    {
+      "name": "Canvey Industrial Docks",
+      "type": "Smuggler and engineering district"
+    },
+    {
+      "name": "The Coghole",
+      "type": "Hidden workshop",
+      "owner": "Axis Cogtooth"
+    }
+  ],
+
+  "artifacts": [
+    {
+      "name": "Aetheric Resonance Core",
+      "status": "Secured",
+      "location": "Southend Skyport Secure Vault",
+      "description": "Experimental aetheric power source capable of massive energy output"
+    },
+    {
+      "name": "Black Meridian Document Case",
+      "status": "Recovered",
+      "holder": "Axis Cogtooth",
+      "description": "Confidential Clockwork College documents describing Project Black Meridian and autonomous construct development"
+    }
+  ],
+
+  "captured_characters": [
+    {
+      "name": "The Brass Fox",
+      "status": "Imprisoned",
+      "location": "Airship Guild Custody"
+    }
+  ],
+
+  "known_antagonists": [
+    {
+      "name": "Meridian Broker",
+      "status": "Unknown Location",
+      "goal": "Construction of the Aether Engine"
+    },
+    {
+      "name": "Professor Alistair Vance",
+      "status": "Active",
+      "affiliation": "Clockwork College",
+      "suspected_role": "Lead researcher in corruption experiments"
+    }
+  ],
+
+  "recent_character_activity": [
+    {
+      "character": "Axis Cogtooth",
+      "location": "Canvey Island",
+      "events": [
+        "Investigated destroyed black market workshops",
+        "Defeated corrupted Clockwork College recovery construct",
+        "Discovered illegal engineering operation at Warehouse 17",
+        "Sabotaged Aetheric Core shipment",
+        "Recovered Project Black Meridian documents"
+      ]
+    },
+    {
+      "character": "Yorudan",
+      "location": "South Essex Skies",
+      "events": [
+        "Boarded the drifting airship Silver Marrow",
+        "Fought corrupted crew",
+        "Discovered corruption amplifier device",
+        "Recovered Captain's Steam Revolver"
+      ]
+    }
+  ],
+
+  "next_story_arc": "Investigation at Chelmsford Clockwork College"
+}

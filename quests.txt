@@ -1,0 +1,141 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2867
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \{\
+  "campaign_name": "South Essex Skies",\
+\
+  "quests": \{\
+\
+    "active": [\
+\
+      \{\
+        "quest_id": "Q001",\
+        "name": "The Brass Fox Interrogation",\
+        "type": "Investigation",\
+        "location": "Southend Skyport \'96 Airship Guild Detention Deck",\
+        "status": "Available",\
+        "description": "The notorious thief known as the Brass Fox has been captured after the Dock 7 ambush. He may possess valuable knowledge regarding stolen Clockwork College technology and the mysterious Meridian Broker.",\
+        "objectives": [\
+          "Speak with Airship Guild officials",\
+          "Interrogate the Brass Fox",\
+          "Discover connections to the Meridian Broker"\
+        ],\
+        "involved_npcs": [\
+          "The Brass Fox",\
+          "Airship Guild Command"\
+        ],\
+        "potential_rewards": [\
+          "Intelligence about the Meridian Broker",\
+          "Information about Project Black Meridian"\
+        ]\
+      \},\
+\
+      \{\
+        "quest_id": "Q002",\
+        "name": "Axis and the Black Meridian Files",\
+        "type": "Investigation",\
+        "location": "Canvey Industrial Docks",\
+        "status": "Ongoing",\
+        "description": "Axis Cogtooth recovered confidential documents connected to Project Black Meridian after sabotaging Warehouse 17. The documents may reveal the scope of Clockwork College's secret construct program.",\
+        "objectives": [\
+          "Study the recovered documents",\
+          "Identify locations mentioned in the files",\
+          "Determine the purpose of the Meridian constructs"\
+        ],\
+        "involved_characters": [\
+          "Axis Cogtooth"\
+        ],\
+        "involved_npcs": [\
+          "Professor Alistair Vance"\
+        ],\
+        "potential_rewards": [\
+          "Blueprints or prototype gadgets",\
+          "New leads on Black Meridian operations"\
+        ]\
+      \},\
+\
+      \{\
+        "quest_id": "Q003",\
+        "name": "Echoes of the Wyrmseeker",\
+        "type": "Character Backstory",\
+        "location": "South Essex Skies",\
+        "status": "Hidden",\
+        "description": "Fragments of Yorudan's past are resurfacing. The events surrounding the Blackwater expedition and Professor Vance's betrayal may hold the key to understanding the corruption technology now spreading across the sky lanes.",\
+        "objectives": [\
+          "Investigate records of the Blackwater expedition",\
+          "Locate survivors of the Wyrmseeker crew",\
+          "Confront Professor Alistair Vance"\
+        ],\
+        "involved_characters": [\
+          "Yorudan"\
+        ],\
+        "involved_npcs": [\
+          "Professor Alistair Vance"\
+        ]\
+      \}\
+\
+    ],\
+\
+    "completed": [\
+\
+      \{\
+        "quest_id": "C001",\
+        "name": "The Silver Marrow Incident",\
+        "location": "South Essex Skies",\
+        "summary": "Yorudan boarded the drifting airship Silver Marrow and uncovered corruption technology linked to Clockwork College experiments.",\
+        "outcome": [\
+          "Corruption amplifier discovered",\
+          "Captain's Steam Revolver recovered"\
+        ]\
+      \},\
+\
+      \{\
+        "quest_id": "C002",\
+        "name": "Southend Skyport Sabotage",\
+        "location": "Southend Skyport",\
+        "summary": "The party prevented the sabotage of the Skyport Stabilizer Towers and captured the criminal mastermind known as the Brass Fox.",\
+        "outcome": [\
+          "Shattergear Syndicate disrupted",\
+          "Aetheric Resonance Core secured",\
+          "Brass Fox captured"\
+        ]\
+      \},\
+\
+      \{\
+        "quest_id": "C003",\
+        "name": "Smoke Under Canvey",\
+        "location": "Canvey Industrial Docks",\
+        "summary": "Axis Cogtooth uncovered a Black Meridian construct operation and sabotaged an Aetheric Core shipment at Warehouse 17.",\
+        "outcome": [\
+          "Corrupted construct destroyed",\
+          "Warehouse 17 explosion",\
+          "Black Meridian documents recovered"\
+        ]\
+      \}\
+\
+    ],\
+\
+    "future_arcs": [\
+\
+      \{\
+        "name": "Chelmsford Investigation",\
+        "description": "The party investigates the Clockwork College to uncover the truth behind the corruption experiments and the Aether Engine project."\
+      \},\
+\
+      \{\
+        "name": "Blackwater Expedition",\
+        "description": "A return to the ruins where Professor Vance first discovered the ancient aetheric machine."\
+      \},\
+\
+      \{\
+        "name": "The Meridian Broker Revealed",\
+        "description": "The shadowy figure manipulating events across South Essex finally steps into the open."\
+      \}\
+\
+    ]\
+  \}\
+\}}

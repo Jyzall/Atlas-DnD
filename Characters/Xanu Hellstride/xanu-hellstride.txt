@@ -1,0 +1,185 @@
+{
+  "name": "Xanu Hellstride",
+  "race": "Tiefling",
+  "class": "Ranger",
+  "subclass": "Beast Master",
+  "level": 3,
+  "background": "Coastal Fiend Hunter",
+
+  "xp": {
+    "current": 1036,
+    "next_level": 2700
+  },
+
+  "ability_scores": {
+    "STR": { "score": 10, "modifier": 0 },
+    "DEX": { "score": 16, "modifier": 3 },
+    "CON": { "score": 14, "modifier": 2 },
+    "INT": { "score": 12, "modifier": 1 },
+    "WIS": { "score": 15, "modifier": 2 },
+    "CHA": { "score": 13, "modifier": 1 }
+  },
+
+  "combat": {
+    "hp": {
+      "current": 20,
+      "max": 20
+    },
+    "ac": 15,
+    "initiative": 3,
+    "speed": "30 ft",
+    "hit_dice": "3d10"
+  },
+
+  "weapons": [
+    {
+      "name": "Clockwork Rapier",
+      "attack_bonus": 5,
+      "damage": "1d8 + 5 piercing",
+      "notes": "DEX + Dueling Fighting Style"
+    },
+    {
+      "name": "Dagger",
+      "attack_bonus": 5,
+      "damage": "1d4 + 3 piercing"
+    },
+    {
+      "name": "Silvered Dagger",
+      "attack_bonus": 5,
+      "damage": "1d4 + 3 piercing",
+      "special": "Effective vs fiends"
+    }
+  ],
+
+  "ranger_features": {
+    "favored_enemy": "Fiends",
+    "favored_terrain": "Coast",
+    "fighting_style": "Dueling"
+  },
+
+  "spellcasting": {
+    "spellcasting_ability": "Wisdom",
+    "spell_save_dc": 12,
+    "spell_attack_bonus": 4,
+    "spell_slots": {
+      "level_1": 3
+    },
+    "spells_known": [
+      "Hunter's Mark",
+      "Cure Wounds",
+      "Zephyr Strike"
+    ]
+  },
+
+  "tiefling_traits": {
+    "darkvision": "60 ft",
+    "hellish_resistance": "Fire",
+    "infernal_legacy": {
+      "cantrip": "Thaumaturgy",
+      "level_3": "Hellish Rebuke",
+      "level_5": "Darkness"
+    }
+  },
+
+  "skills": [
+    "Perception",
+    "Survival",
+    "Stealth",
+    "Investigation",
+    "Athletics"
+  ],
+
+  "companion": {
+    "name": "Tempest",
+    "type": "Sea Hawk",
+    "ac": 13,
+    "hp": 20,
+    "speed": {
+      "walk": "10 ft",
+      "fly": "60 ft"
+    },
+    "attack": {
+      "name": "Talons",
+      "attack_bonus": 4,
+      "damage": "1d4 + 2 slashing"
+    },
+    "gear": [
+      "Leather Hawk Hood",
+      "Reinforced Perch Strap",
+      "Reinforced Hawk Harness",
+      "Command Whistle"
+    ],
+    "role": "Scout and combat companion"
+  },
+"companion_training": {
+  "tempest_training_level": 1,
+  "skills_learned": [
+    "Aerial Recon Signals"
+  ],
+  "training_location": "Southend Skyport",
+  "training_time": "1 Day"
+}
+
+  "gear": {
+    "explorers_pack": [
+      "Backpack",
+      "Bedroll",
+      "Mess kit",
+      "Tinderbox",
+      "10 torches",
+      "10 days rations",
+      "Waterskin",
+      "50 ft rope"
+    ],
+    "hunter_gear": [
+      "Fiend hunter journal",
+      "Spyglass",
+      "Hunting trap",
+      "Flask of oil",
+      "Whetstone"
+    ],
+    "misc": [
+      "Traveler clothes",
+      "Belt pouch",
+      "Airship Guild mechanic overalls"
+    ]
+  },
+
+  "medical_supplies": [
+    {
+      "item": "Field Medkit",
+      "quantity": 1,
+      "effect": "Heal 1d8 + 2 HP"
+    },
+    {
+      "item": "Stim Injector",
+      "quantity": 3,
+      "effect": "Bonus action heal 1d4 HP"
+    },
+    {
+      "item": "Bandage Roll",
+      "effect": "Stabilize a downed ally"
+    }
+  ],
+
+  "currency": {
+    "gold": 22,
+    "sky_coins": 2
+  },
+
+  "special_items": [
+    "Airship Guild Favor Token",
+    "Brass Fox Calling Card",
+    "Encoded Data Cylinder",
+    "Mechanical Key Cylinder"
+  ],
+
+  "story_flags": [
+    "Silver Marrow Incident Survivor",
+    "Stopped Southend Stabilizer Sabotage",
+    "Defeated Shattergear Syndicate Leader",
+    "Captured the Brass Fox",
+    "Secured Aetheric Resonance Core",
+    "Discovered Meridian Broker conspiracy"
+  ]
+}

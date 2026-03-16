@@ -1,0 +1,202 @@
+{
+  "character": {
+    "name": "Yorudan",
+    "race": "Half-Elf",
+    "class": "Gunslinger",
+    "level": 1,
+    "xp": {
+      "current": 141,
+      "next_level": 300
+    },
+    "background": "Ex Air-Pirate Captain / Mercenary"
+  },
+
+  "ability_scores": {
+    "STR": { "score": 10, "modifier": 0 },
+    "DEX": { "score": 16, "modifier": 3 },
+    "CON": { "score": 14, "modifier": 2 },
+    "INT": { "score": 13, "modifier": 1 },
+    "WIS": { "score": 12, "modifier": 1 },
+    "CHA": { "score": 15, "modifier": 2 }
+  },
+
+  "combat_stats": {
+    "hp": {
+      "current": 12,
+      "max": 12
+    },
+    "ac": 15,
+    "armor": "Reinforced Pirate Captain Coat",
+    "initiative": 3,
+    "speed_ft": 30,
+    "hit_dice": "1d10"
+  },
+
+  "weapons": [
+    {
+      "name": "Captain's Steam Revolver",
+      "attack_bonus": 5,
+      "damage": "1d10 + 3 Piercing",
+      "special": "Pressure Shot – once per combat add +1d4 bonus damage by venting steam pressure"
+    },
+    {
+      "name": "Clockwork Revolver",
+      "attack_bonus": 5,
+      "damage": "1d10 + 3 Piercing"
+    },
+    {
+      "name": "Katana",
+      "attack_bonus": 5,
+      "damage": "1d8 + 3 Slashing"
+    }
+  ],
+
+  "equipment": [
+    "Reinforced Pirate Captain Coat",
+    "Powder and Ammunition",
+    "Old Airship Captain’s Logbook",
+    "Compass from the Wyrmseeker",
+    "Tinkerer's Toolkit"
+  ],
+
+  "explorer_gear": [
+    "Bedroll",
+    "Waterskin",
+    "50 ft rope",
+    "Flask",
+    "Belt pouch"
+  ],
+
+  "currency": {
+    "gold": 10,
+    "sky_coins": 2
+  },
+
+  "skills": [
+    "Acrobatics",
+    "Perception",
+    "Intimidation",
+    "Investigation",
+    "Persuasion"
+  ],{
+  "character": {
+    "name": "Yorudan",
+    "race": "Half-Elf",
+    "class": "Gunslinger",
+    "level": 1,
+    "xp": {
+      "current": 141,
+      "next_level": 300
+    },
+    "background": "Ex Air-Pirate Captain / Mercenary"
+  },
+
+  "ability_scores": {
+    "STR": { "score": 10, "modifier": 0 },
+    "DEX": { "score": 16, "modifier": 3 },
+    "CON": { "score": 14, "modifier": 2 },
+    "INT": { "score": 13, "modifier": 1 },
+    "WIS": { "score": 12, "modifier": 1 },
+    "CHA": { "score": 15, "modifier": 2 }
+  },
+
+  "combat_stats": {
+    "hp": {
+      "current": 12,
+      "max": 12
+    },
+    "ac": 15,
+    "armor": "Reinforced Pirate Captain Coat",
+    "initiative": 3,
+    "speed_ft": 30,
+    "hit_dice": "1d10"
+  },
+
+  "weapons": [
+    {
+      "name": "Captain's Steam Revolver",
+      "attack_bonus": 5,
+      "damage": "1d10 + 3 Piercing",
+      "special": "Pressure Shot – once per combat add +1d4 bonus damage by venting steam pressure"
+    },
+    {
+      "name": "Clockwork Revolver",
+      "attack_bonus": 5,
+      "damage": "1d10 + 3 Piercing"
+    },
+    {
+      "name": "Katana",
+      "attack_bonus": 5,
+      "damage": "1d8 + 3 Slashing"
+    }
+  ],
+
+  "equipment": [
+    "Reinforced Pirate Captain Coat",
+    "Powder and Ammunition",
+    "Old Airship Captain’s Logbook",
+    "Compass from the Wyrmseeker",
+    "Tinkerer's Toolkit"
+  ],
+
+  "explorer_gear": [
+    "Bedroll",
+    "Waterskin",
+    "50 ft rope",
+    "Flask",
+    "Belt pouch"
+  ],
+
+  "currency": {
+    "gold": 10,
+    "sky_coins": 2
+  },
+
+  "skills": [
+    "Acrobatics",
+    "Perception",
+    "Intimidation",
+    "Investigation",
+    "Persuasion"
+  ],
+
+  "appearance": {
+    "hair": "Long ginger dreadlocks",
+    "facial_hair": "Goatee",
+    "eyes": "Dark",
+    "clothing": "Worn pirate captain coat over light armour"
+  },
+
+  "session0_notes": {
+    "location": "Derelict airship in the South Essex skies",
+    "events": [
+      "Boarded a drifting vessel in storm conditions",
+      "Fought corrupted crew members",
+      "Recovered the Captain's Steam Revolver",
+      "Investigated corruption amplifier device",
+      "Discovered Clockwork College involvement"
+    ],
+
+  }
+}
+
+
+  "appearance": {
+    "hair": "Long ginger dreadlocks",
+    "facial_hair": "Goatee",
+    "eyes": "Dark",
+    "clothing": "Worn pirate captain coat over light armour"
+  },
+
+  "session0_notes": {
+    "location": "Derelict airship in the South Essex skies",
+    "events": [
+      "Boarded a drifting vessel in storm conditions",
+      "Fought corrupted crew members",
+      "Recovered the Captain's Steam Revolver",
+      "Investigated corruption amplifier device",
+      "Discovered Clockwork College involvement"
+    ],
+
+  }
+}

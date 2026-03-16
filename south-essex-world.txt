@@ -1,0 +1,125 @@
+{
+  "region": "South Essex Skies",
+
+  "description": "An alternate steampunk version of South Essex where coastal towns, forests, and industrial settlements remain geographically connected but heavily altered by storm‑scarred skies and experimental clockwork technology. Airships dominate travel across the region due to unstable weather systems and dangerous sea routes along the Thames Estuary. Trade, engineering innovation, and hidden relics make the region a center of both opportunity and danger.",
+
+  "geography": {
+    "terrain": [
+      "Coastal estuaries",
+      "Industrial docklands",
+      "Farmland and woodland",
+      "Storm‑scarred coastline",
+      "Ancient ruins and abandoned facilities"
+    ],
+    "travel_methods": [
+      "Airships",
+      "River vessels",
+      "Rail cargo lines",
+      "Road caravans"
+    ]
+  },
+
+  "major_settlements": [
+    {
+      "name": "Southend Skyport",
+      "type": "Major Trade Hub",
+      "description": "The largest airship port in the region. Dock towers, cargo cranes, stabilizer rigs, and guild offices dominate the skyline.",
+      "notable_locations": [
+        "Dock 7 Cargo Platform",
+        "Central Stabilizer Tower",
+        "Broken Propeller Tavern",
+        "Airship Guild Command Tower",
+        "Guild Detention Deck"
+      ]
+    },
+    {
+      "name": "Chelmsford",
+      "type": "Academic / Industrial City",
+      "description": "Home of the Clockwork College, where engineers experiment with aetheric power systems, steam technology, and advanced mechanical constructs.",
+      "notable_locations": [
+        "Clockwork College Campus",
+        "Aetheric Engineering Laboratories",
+        "College Sky Docks"
+      ]
+    },
+    {
+      "name": "Rochford",
+      "type": "Market Town",
+      "description": "A busy regional town known for mechanical workshops, supply depots, and skyship repair facilities."
+    },
+    {
+      "name": "Canvey Industrial Docks",
+      "type": "Industrial Docklands",
+      "description": "A smuggler‑heavy dock district known for black‑market engineering, cargo depots, and experimental mechanical workshops.",
+      "notable_locations": [
+        "Warehouse 17",
+        "Fuel Depot Workshops",
+        "Old Cargo Rail Terminal",
+        "The Coghole (hidden workshop)"
+      ]
+    }
+  ],
+
+  "danger_zones": [
+    {
+      "name": "Blackwater Wreck Site",
+      "type": "Ruined Industrial Zone",
+      "description": "A wreck‑strewn region along the Blackwater estuary containing destroyed airships and experimental machinery connected to early Clockwork College research."
+    },
+    {
+      "name": "Estuary Storm Belt",
+      "type": "Extreme Weather Region",
+      "description": "Violent electrical storms regularly sweep across the Thames estuary, making both sea and air travel unpredictable."
+    }
+  ],
+
+  "faction_influence": [
+    {
+      "faction": "Airship Guild",
+      "influence": "High",
+      "territory": "Southend Skyport and regional air routes"
+    },
+    {
+      "faction": "Clockwork College",
+      "influence": "High",
+      "territory": "Chelmsford"
+    },
+    {
+      "faction": "Shattergear Syndicate",
+      "influence": "Weakened",
+      "territory": "Industrial docklands"
+    },
+    {
+      "faction": "Sky Pirates",
+      "influence": "Medium",
+      "territory": "Coastal trade routes and storm regions"
+    }
+  ],
+
+  "recent_events": [
+    "Stabilizer Tower sabotage attempt prevented",
+    "Dock 7 ambush and capture of the Brass Fox",
+    "Aetheric Resonance Core secured by the Airship Guild",
+    "Corrupted Clockwork College recovery construct destroyed on Canvey Island",
+    "Illegal Clockwork College shipment discovered at Warehouse 17",
+    "Aetheric Core crate sabotaged causing warehouse explosion"
+  ],
+
+  "active_mysteries": [
+    "Clockwork College corruption experiments",
+    "Professor Alistair Vance involvement",
+    "Meridian Broker network",
+    "Construction of the Aether Engine",
+    "Project Black Meridian construct program",
+    "Origin of corrupted autonomous machines"
+  ],
+
+  "hidden_locations": [
+    {
+      "name": "The Coghole",
+      "type": "Secret Workshop",
+      "owner": "Axis Cogtooth",
+      "location": "Beneath an abandoned warehouse in Canvey Industrial Docks"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "factions": [
+    {
+      "name": "Airship Guild",
+      "base": "Southend Skyport",
+      "status": "Allied",
+      "description": "Regulates airship travel and maintains stabilizer towers across the South Essex sky islands."
+    },
+    {
+      "name": "Shattergear Syndicate",
+      "status": "Weakened",
+      "description": "Industrial sabotage group using stolen engineering tech.",
+      "recent_events": [
+        "Leader defeated at Stabilizer Tower",
+        "Dock 7 operation disrupted",
+        "Multiple engineers captured"
+      ]
+    },
+    {
+      "name": "Clockwork College",
+      "location": "Chelmsford",
+      "status": "Uncertain",
+      "description": "Major engineering academy producing advanced aetheric technology."
+    },
+    {
+      "name": "Meridian Broker Network",
+      "status": "Active Threat",
+      "description": "Shadow organization acquiring powerful experimental technology.",
+      "goal": "Construction of a mysterious device called the Aether Engine"
+    }
+  ]
+}

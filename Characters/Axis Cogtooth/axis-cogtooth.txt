@@ -1,0 +1,144 @@
+{
+  "name": "Axis Cogtooth",
+  "race": "Dwarf",
+  "class": "Artificer",
+  "subclass": "Gadgeteer",
+  "level": 2,
+  "background": "Black Market Tinkerer",
+
+  "xp": {
+    "current": 300,
+    "next_level": 900
+  },
+
+  "ability_scores": {
+    "STR": { "score": 14, "modifier": 2 },
+    "DEX": { "score": 12, "modifier": 1 },
+    "CON": { "score": 15, "modifier": 2 },
+    "INT": { "score": 16, "modifier": 3 },
+    "WIS": { "score": 10, "modifier": 0 },
+    "CHA": { "score": 8, "modifier": -1 }
+  },
+
+  "combat": {
+    "hp": {
+      "current": 17,
+      "max": 17
+    },
+    "ac": 18,
+    "initiative": 1,
+    "speed": "25 ft",
+    "hit_dice": "2d8"
+  },
+
+  "weapons": [
+    {
+      "name": "Coghammer",
+      "type": "Infused Weapon",
+      "attack_bonus": 5,
+      "damage": "1d8 + 3 bludgeoning",
+      "notes": "Enhanced Weapon infusion applied"
+    },
+    {
+      "name": "Light Crossbow",
+      "attack_bonus": 3,
+      "damage": "1d8 piercing",
+      "ammo": 20
+    }
+  ],
+
+  "artificer_features": {
+    "magical_tinkering": {
+      "description": "Imbue small nonmagical objects with minor magical effects.",
+      "effects": [
+        "Emit light",
+        "Record and play short messages",
+        "Produce mechanical sounds",
+        "Create small visual indicators"
+      ]
+    }
+  },
+
+  "infusions": {
+    "known": [
+      "Enhanced Weapon",
+      "Enhanced Defense",
+      "Returning Weapon",
+      "Enhanced Arcane Focus"
+    ],
+    "active": [
+      {
+        "name": "Enhanced Weapon",
+        "applied_to": "Coghammer",
+        "effect": "+1 attack and damage"
+      },
+      {
+        "name": "Enhanced Defense",
+        "applied_to": "Heavy Workshop Plate",
+        "effect": "+1 AC"
+      }
+    ],
+    "active_limit": 2
+  },
+
+  "signature_gadget": {
+    "name": "Smoke Capsule",
+    "type": "Thrown Gadget",
+    "effect": "Creates a 10 ft cloud of thick smoke that heavily obscures vision",
+    "duration": "1–2 rounds"
+  },
+
+  "armor": {
+    "name": "Heavy Workshop Plate",
+    "ac": 18,
+    "description": "Reinforced engineer armor infused with arcane stabilizer plating."
+  },
+
+  "tools": [
+    "Tinkerer's Tools",
+    "Thieves’ Tools",
+    "Engineer Toolkit"
+  ],
+
+  "equipment": [
+    "Engineer’s Coat with tool pockets",
+    "Mechanical Goggles",
+    "Coghammer",
+    "Light Crossbow",
+    "Smoke Capsule",
+    "Backpack",
+    "Adventuring Gear"
+  ],
+
+  "special_items": [
+    "Black Meridian Document Case",
+    "Servo Core Assembly",
+    "Damaged Clockwork Sensor",
+    "Unstable Aether Detector"
+  ],
+
+  "currency": {
+    "gold": 15
+  },
+
+  "base_of_operations": {
+    "name": "The Coghole",
+    "location": "Canvey Island",
+    "description": "Hidden underground tinkering den beneath an abandoned warehouse used by Axis for invention and storage."
+  },
+
+  "character_profile": {
+    "age": 85,
+    "personality": "Gruff Veteran",
+    "flaw": "Secretive",
+    "appearance": "Broad-shouldered dwarf with an iron-grey beard braided with copper rings and gear charms, wearing scarred workshop plate and brass goggles."
+  },
+
+  "story_flags": [
+    "Destroyed corrupted recovery construct",
+    "Sabotaged Warehouse 17",
+    "Stole Project Black Meridian documents",
+    "Discovered Professor Halvix connection",
+    "Project Black Meridian investigation begun"
+  ]
+}
